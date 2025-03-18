@@ -19,13 +19,13 @@ class _RecoverAccountScreenState extends State<RecoverAccountScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.pinkAccent,
+        backgroundColor:  Color.fromRGBO(255, 156, 230, 1),
         title: Text(
           'Recuperar conta',
-          style: TextStyle(color: Colors.black),
+          style: TextStyle(color: Color.fromRGBO(45, 45, 45, 1)),
         ),
         leading: IconButton(
-          icon: Icon(Icons.arrow_back, color: Colors.black),
+          icon: Icon(Icons.arrow_back, color: Color.fromRGBO(45, 45, 45, 1)),
           onPressed: () => Navigator.pop(context),
         ),
       ),
@@ -65,7 +65,7 @@ class _RecoverAccountScreenState extends State<RecoverAccountScreen> {
                 style: ButtonStyle(
                   fixedSize: WidgetStatePropertyAll(Size(350, 58)),
                   backgroundColor:
-                      WidgetStatePropertyAll(Colors.lightBlueAccent),
+                      WidgetStatePropertyAll(Color.fromRGBO(147, 197, 255, 1)),
                 ),
                 child: Text(
                   'Recuperar Senha',

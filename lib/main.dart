@@ -59,9 +59,9 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.pinkAccent, // Define a cor de fundo da AppBar
+        backgroundColor:  Color.fromRGBO(255, 156, 230, 1), // Define a cor de fundo da AppBar
         title: Text('Entrar na sua conta',
-            style: TextStyle(color: Colors.black)), // Define o título da AppBar
+            style: TextStyle(color: Color.fromRGBO(45, 45, 45, 1))), // Define o título da AppBar
       ),
       body: Form(
         key: _formKey,
@@ -135,7 +135,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   fixedSize: WidgetStatePropertyAll(
                       Size(350, 58)), // Define o tamanho do botão
                   backgroundColor: WidgetStatePropertyAll(
-                      Colors.blue), // Define a cor de fundo do botão
+                      Color.fromRGBO(147, 197, 255, 1)), // Define a cor de fundo do botão
                 ),
                 child: Text('Entrar',
                     style: TextStyle(
@@ -157,8 +157,8 @@ class _LoginScreenState extends State<LoginScreen> {
                 style: ButtonStyle(
                   fixedSize: WidgetStatePropertyAll(
                       Size(350, 58)), // Define o tamanho do botão
-                  backgroundColor: WidgetStatePropertyAll(Colors
-                      .redAccent), // Cor vermelha para o botão de criação de conta
+                  backgroundColor: WidgetStatePropertyAll(
+                    Color.fromRGBO(255, 125, 125, 1)), // Cor vermelha para o botão de criação de conta
                 ),
                 child: Text('Criar uma nova conta',
                     style: TextStyle(
@@ -178,11 +178,11 @@ class _LoginScreenState extends State<LoginScreen> {
                   fixedSize: WidgetStatePropertyAll(
                       Size(350, 58)), // Define o tamanho do botão
                   backgroundColor: WidgetStatePropertyAll(
-                      Colors.yellow), // Define a cor de fundo do botão
+                      Color.fromRGBO(255, 192, 129, 1)), // Define a cor de fundo do botão
                 ),
                 child: Text('Recuperar conta',
                     style: TextStyle(
-                        fontSize: 16, color: Colors.black)), // Texto do botão
+                        fontSize: 16, color: Color.fromRGBO(45, 45, 45, 1))), // Texto do botão
               ),
             ],
           ),

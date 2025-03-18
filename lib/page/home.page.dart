@@ -5,10 +5,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.pinkAccent,
+        backgroundColor:  Color.fromRGBO(255, 156, 230, 1),
         title: Text(
           'Bem-vindo(a)',
-          style: TextStyle(color: Colors.black),
+          style: TextStyle(color: Color.fromRGBO(45, 45, 45, 1)),
         ),
         centerTitle: true,
       ),
